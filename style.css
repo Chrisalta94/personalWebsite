@@ -1,12 +1,79 @@
+body {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+#navBar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
 #navBar ul {
   display: flex;
+  justify-content: space-evenly;
   gap: 20px;
   list-style-type: none;
 }
-.container {
+#home {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  background-color: #BD8C42;
+}
+#about {
+  height: 100vh;
+  background-color: #4273BD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about p {
+  width: 50%;
+  font-size: 2.5em;
+}
+#skills {
+  height: 100vh;
+  background-color: #BD8C42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#skills p{
+  font-size: 3rem;
+}
+#projects {
+  height: 100vh;
+  background-color: #4273BD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#projects p {
+  font-size: 3em;
+}
+#contact {
+  height: 100vh;
+  background-color: #BD8C42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.linkedinImg {
+  width: 300px;
+  height: 150px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: black; /* Default link color */
+}
+
+a:visited {
+  color: black; /* Visited link color */
 }
